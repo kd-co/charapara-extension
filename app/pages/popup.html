@@ -2,13 +2,73 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Popup</title>
+  <title>Charapara</title>
+  <link rel="stylesheet" type="text/css" href="../styles/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../styles/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../styles/animate.css">
+  <link rel="stylesheet" type="text/css" href="../styles/icons.css">
   <link rel="stylesheet" type="text/css" href="../styles/popup.css">
 </head>
 <body>
 
-  <h1>Popup</h1>
+  <div class="container">
+    <nav class="navbar">
+      <a class="brand-header">
+        ചറപറ!
+      </a>
+      <p class="brand-sub-header">സുലോ വിന്തേന പിഷി വാട്ടിയം കിടിരാമൽ തൈവലം.</p>
+      <p class="brand-info-header">അതായതുത്തമാ, മലയാളത്തിൽ ഒരു ലോറം ഇപ്‌സം ജനറേറ്റർ!</p>
+    </nav>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="charapara-controls-container">
+          <div class="row">
+            <div class="col-xs-12">
+              <a class="control-btn para-control-btn control-btn-active" id="smallText" data-para="1">
+                <img src="../img/para1.svg">
+              </a>
+              <a class="control-btn para-control-btn" id="mediumText" data-para="2">
+                <img src="../img/para2.svg">
+              </a>
+              <a class="control-btn para-control-btn" id="largeText" data-para="3">
+                <img src="../img/para3.svg">
+              </a>
+              <a class="control-btn settings-control-btn" id="copyControlBtn">
+                <img src="../img/green-check-icon.svg" class="success-icon-small hide" id="copy-control-btn-success-icon">
+                <span id="copy-control-text">
+                  അടിച്ചു മാറ്റുക
+                </span>
+              </a>
+              <a class="control-btn settings-control-btn" id="refreshBtn">
+                <img src="../img/refresh.svg">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="charapara-outer-container">
+          <div class="charapara-text-container animated" id="charapara-text-container">
 
+          </div>
+        </div>
+        <a class="brand-info-header center contribute-link" href="https://docs.google.com/forms/d/e/1FAIpQLSf8KR39eV0jd9zuXUMUqupjiF8hSvnNA_vBRMtfHKRFp04Qwg/viewform" target="_blank">
+          <img src="../img/award.svg" class="icon-small">പണ്ഡിതനാണോ? ഇതിലേ, ഇതിലേ!</a>
+        <div class="footer center">
+          <img src="../img/kdco-logomark.svg" class="kdco-logomark">
+          <div class="social-links">
+            <a target="_blank" href="https://www.behance.net/kdco"><span class="kdcoicon-brand"></span></a>
+            <a target="_blank" href="https://www.facebook.com/groups/264660753884778/"><span class="kdcoicon-brand2"></span></a>
+            <a target="_blank" href="https://twitter.com/KDCotweets"><span class="kdcoicon-brand5"></span></a>
+            <a target="_blank" href="https://www.instagram.com/kdco_official/"><span class="kdcoicon-brand3"></span></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+  <script src="../scripts/jquery-3.2.1.min.js"></script>
   <script src="../scripts/popup.js"></script>
 </body>
 </html>
